@@ -1,63 +1,75 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 - Vuetify - TypeScript 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Prerequisites
+[Node.js - v16.10.0 or newer](hhttps://nodejs.org/en)
+
+[Text Editor - VS Code recommended  ](https://code.visualstudio.com/)
+
+## Recommended Extensions 
+[ Volar ](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ## Setup
-
-Make sure to install the dependencies:
+Open Terminal 
 
 ```bash
-# npm
+
+# create a new starter project
+npx nuxi@latest init <project-name>
+
+# install the dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start the development server 
 npm run dev
 
-# pnpm
-pnpm run dev
+# Open Chrome to `http://localhost:3000`:
+```
 
-# yarn
-yarn dev
+## Add Vuetifyjs to the project 
+```bash
+
+# install
+npm i vuetify@next
+
+# install sass, fonts, and icons as a dev dependency 
+npm i -D sass nuxt-icon @nuxtjs/google-fonts
+
+# install plugin
+npm i vite-plugin-vuetify
+```
+
+## configure Vuetifyjs
+```js
+
+// 
+
+
+
 ```
 
 ## Production
 
-Build the application for production:
-
 ```bash
-# npm
+
+# Build the application for production
 npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# Locally preview production build
 npm run preview
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Create the following files & folders 
+
+## Documentation
+[Nuxt documentation](https://nuxt.com/docs/getting-started/introduction)
+
+[Vuetifyjs documentation](https://vuetifyjs.com/en/)
+
+[Materialize documentation](https://materializecss.com/)
+
+[google fonts for Nuxt 3]( https://google-fonts.nuxtjs.org/getting-started/setup)
+
+[Vuetifyjs Treeshaking](https://vuetifyjs.com/en/features/treeshaking/)
+
+[vite plugin ](https://www.npmjs.com/package/vite-plugin-vuetify)
