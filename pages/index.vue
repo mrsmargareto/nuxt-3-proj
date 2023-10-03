@@ -1,5 +1,11 @@
 <template>
-    <!-- https://vuetifyjs.com/en/components/data-tables/server-side-tables/ -->
-    <h1>HOME</h1>
+    <div>
+        <h1>HOME</h1>
+
+    </div>
 </template>
 
+
+<script setup lang="ts">
+
+</script>
